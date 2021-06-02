@@ -336,7 +336,7 @@ int quickSort(int *a, int n)
 	return 0;
 }
 
-
+/*해쉬코드를 리턴하는 함수*/
 int hashCode(int key) {
    return key % MAX_HASH_TABLE_SIZE;
 }
